@@ -1,0 +1,28 @@
+{
+  "decision_date": "2026-03-31",
+  "warehouse_export_date": "2026-07-03",
+  "total_rows": 135113,
+  "total_clients": 42,
+  "train_clients": 29,
+  "test_clients": 13,
+  "base_rate": 0.24,
+  "baseline_rule": {
+    "precision_at_20": 0.1,
+    "precision_at_50": 0.12
+  },
+  "logistic_regression_grouped": {
+    "precision_at_20": 0.35,
+    "precision_at_50": 0.5
+  },
+  "random_split_precision_at_20": 0.9,
+  "random_split_precision_at_50": 0.86,
+  "deliberate_leak_test_precision_at_20": 1.0,
+  "deliberate_leak_test_precision_at_50": 1.0,
+  "reason_code_distribution": {
+    "STALE_ONLY": 69427,
+    "NO_FLAG": 40439,
+    "STALE_AND_UNDERPERFORMING": 15075,
+    "CTR_BELOW_POSITION_PEERS": 10172
+  },
+  "model_top1000_no_flag_share_pct": 53.3
+}
